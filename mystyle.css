@@ -1,0 +1,47 @@
+
+
+              body {background-color:rgba(38, 48, 141, 0.4);}
+               ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(36, 34, 34);
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display:inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: rgb(104, 96, 96);
+}
+img {
+  border-radius: 60%;
+}
+.footer {
+  background-color:rgba(21, 26, 61, 0.4);
+  padding: 0.5px;
+  text-align: center;
+}
+h1 {
+  text-shadow: 2px 2px 5px rgb(29, 25, 25);
+}
+ /*  <p3 style="text-align: center;">These are the services available;</p3>
+ <div class="services">
+        <ul>
+          <li>Wheel Alignment</li>
+          <li>Key replacement</li>
+          <li>Car spraying</li>
+          <li>Motor vehicle Reair</li>
+        </ul>
+      </div> */
+       
