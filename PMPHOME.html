@@ -9,70 +9,103 @@
     <link rel="stylesheet" href="mystyle.css">
 </head>
    <body>
-    
-    
           <style>
-        
-              body {background-color:rgba(252, 166, 245, 0.4);}
-            
-               navbar-top{color:lightblue;}
+              body {background-color:rgba(52, 67, 197, 0.4);}
+               ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(36, 34, 34);
+}
 
+li {
+  float: right;
+}
+
+li a {
+  display:inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: rgb(104, 96, 96);
+}
+img {
+  border-radius: 60%;
+}
+.footer {
+  background-color: #336dc4;
+  padding: 0.5px;
+  text-align: center;
+}
+h1 {
+  text-shadow: 2px 2px 5px rgb(29, 25, 25);
+}
+ /*  <p3 style="text-align: center;">These are the services available;</p3>
+ <div class="services">
+        <ul>
+          <li>Wheel Alignment</li>
+          <li>Key replacement</li>
+          <li>Car spraying</li>
+          <li>Motor vehicle Reair</li>
+        </ul>
+      </div> */
         </style>
 
       <header>
           <nav class="navbar-top">
-              <ul class="Menu">
-                  <li class="menu-item">
-                      <a href= "#" id="logo">PMP Workshop</a>
-                  </li>
-                  <li class="menu-item">
-                       <a href= "./ABOUTPMP.html">About</a>
-                  </li>
-                  <li class="menu-item">
-                      <a href="#">Contact Us</a>
-                  </li>
+              <ul class="Menu">   
+                <li class="menu-item">
+                    <a href="CONTACT.html">Contact Us</a>
+                </li>
+                <li class="menu-item">
+                    <a href= "./ABOUTPMP.html">About</a>
+               </li>
+            <li class="menu-item">
+                <a href= "PMPHOME.html" id="logo">PMP Workshop</a>
+            </li>
               </ul>
           </nav>
       </header>
       <div class="container">
-          <img src="Workshop.png" width="400" height="400" alt="workshop"/>
+          <img src="pmp logo.jpg" width="300" height="250" alt="workshop"/>
       </div>
-        <h1 style="background-color:Tomato;">Practice Makes Perfect Workshop</h1>
+        <h1 style="text-align: center;">Practice Makes Perfect Workshop</h1>
 
         <br>
 
-       <p1 style="color: blue;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit rem eos sed molestiae totam minus praesentium,
+       <p1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit rem eos sed molestiae totam minus praesentium,
            enim porro placeat voluptatem non labore quisquam reiciendis sequi assumenda hic aliquam fugiat sit!</p1>
                  <br>
-           <p2 style="background-color: rgb(255, 89, 100);">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum sed placeat officiis adipisci ipsum necessitatibus nostrum dignissimos,
+           <p2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum sed placeat officiis adipisci ipsum necessitatibus nostrum dignissimos,
                 nisi soluta ullam voluptate fugit tempore perspiciatis rem repudiandae. Corrupti id eligendi consectetur!</p2>
         <br>
-        <p3 style="text-align: center;">These are the services available;</p3>
-        <ul>
-            <li>Lock smith services</li>
-            <li>car painting</li>
-            <li>motor vehicle insurance</li>
-            <li>Wheel Alignment</li>
-            <li>Car tracking</li>
-        </ul>
-        
+        <br>
+      
+      </div>
+     
         <form id="reveiw form" method="POST" action="#">
-        <h2 style="border:3px solid black;">For any assistance, Please fill the form below:</h2>
+        <h2>For any assistance, please fill the form below:</h2>
         <div class="container">
             <div input="input element>
             <label for="Name">Name:</label>
             <input type="Name" placeholder="Your name" id="Name" Name="Name"/>
               <br>
+              <br>
              <div input='input element'>
                   <label for="Email">Email address:</label>
-                 <input type="email address" placeholder="someone@gmail.com" id="email" Name="email"/>
+                 <input type="email address" placeholder="Your email address" id="email" Name="email"/>
              </div>
              <br>
              <div class="feedback-form">
-                 <h3>Please leave your message below;</h3> 
+                 <h3>Please type your request below;</h3> 
                  <div input="input-element">
-                      <label for="review">Review:</label>
-                      <textarea name="review" cols="25" rows="5">
+
+                      <textarea name="review" cols="30" rows="10">
                       </textarea>
                  </div>   
                  <input type="submit" value="Submit" /> 
@@ -80,6 +113,9 @@
 
             </form>
              
+        </div>
+        <div class="footer">
+          <p>Simplicity at its best!!</p>
         </div>
  
     </body>
