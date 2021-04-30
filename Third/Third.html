@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grid and Flex box</title>
+  <style>
+    body {
+      padding: 0;
+      margin: 5;
+      background-image: repeating-radial-gradient(rgb(195, 212, 116), rgb(231, 133, 235));
+    }
+
+    h1 {
+      text-align: center;
+      color: blue;
+      text-transform: uppercase;
+    }
+
+    .container {
+      display: grid;
+      grid-template-columns: 80% 20%;
+    }
+
+
+    .grid-item:hover {
+      cursor: pointer;
+      box-shadow: black 7px 7px 5px;
+      border-radius: 1em;
+    }
+
+    footer {
+      text-align: right;
+    }
+
+    .side-menu {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      height: 300px;
+    }
+
+    .side-menu-item:hover {
+      background: black;
+      color: orange;
+    }
+
+    .main {
+      display: grid;
+      column-gap: 20px;
+      row-gap: 20px;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+      justify-content: space-evenly;
+      padding: 50px;
+    }
+
+    /* .grid-item {
+      display: flex;
+      background: rgb(255, 255, 255);
+      margin: 5px;
+      height: 150px;
+      width: 300px;
+      padding: 15px;
+    }
+*/
+  </style>
+
+</head>
+
+<body>
+  <h1>Grid and Flex Box</h1>
+  <div class="container">
+    <div class="main">
+      <div class="grid-item">
+        <p1>1. Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+          Amet beatae dicta debitis maiores alias est fugit
+          magnam maxime nam quae, explicabo saepe iusto sapiente fugiat consequatur! Quasi,
+          vel necessitatibus qui magni veniam aliquam ad inventore molestiae earum eius rerum
+          iusto voluptate aperiam rem vitae nulla? Sit alias quasi est pariatur.</p1>
+      </div>
+
+      <div class="grid-item">
+        <p1>2. Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+          Amet beatae dicta debitis maiores alias est fugit
+          magnam maxime nam quae, explicabo saepe iusto sapiente fugiat consequatur! Quasi,
+          vel necessitatibus qui magni veniam aliquam ad inventore molestiae earum eius rerum
+          iusto voluptate aperiam rem vitae nulla? Sit alias quasi est pariatur.</p1>
+      </div>
+
+      <div class="grid-item">
+        <p1>3. Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+          Amet beatae dicta debitis maiores alias est fugit
+          magnam maxime nam quae, explicabo saepe iusto sapiente fugiat consequatur! Quasi,
+          vel necessitatibus qui magni veniam aliquam ad inventore molestiae earum eius rerum
+          iusto voluptate aperiam rem vitae nulla? Sit alias quasi est pariatur.</p1>
+      </div>
+
+      <div class="grid-item">
+        <p1>4. Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+          Amet beatae dicta debitis maiores alias est fugit
+          magnam maxime nam quae, explicabo saepe iusto sapiente fugiat consequatur! Quasi,
+          vel necessitatibus qui magni veniam aliquam ad inventore molestiae earum eius rerum
+          iusto voluptate aperiam rem vitae nulla? Sit alias quasi est pariatur.</p1>
+      </div>
+
+      <div class="grid-item">
+        <p1>5. Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+          Amet beatae dicta debitis maiores alias est fugit
+          magnam maxime nam quae, explicabo saepe iusto sapiente fugiat consequatur! Quasi,
+          vel necessitatibus qui magni veniam aliquam ad inventore molestiae earum eius rerum
+          iusto voluptate aperiam rem vitae nulla? Sit alias quasi est pariatur.</p1>
+      </div>
+
+      <div class="grid-item">
+        <p1>6. Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+          Amet beatae dicta debitis maiores alias est fugit
+          magnam maxime nam quae, explicabo saepe iusto sapiente fugiat consequatur! Quasi,
+          vel necessitatibus qui magni veniam aliquam ad inventore molestiae earum eius rerum
+          iusto voluptate aperiam rem vitae nulla? Sit alias quasi est pariatur.</p1>
+      </div>
+      <div class="grid-item">
+        <p1>7. Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+          Amet beatae dicta debitis maiores alias est fugit
+          magnam maxime nam quae, explicabo saepe iusto sapiente fugiat consequatur! Quasi,
+          vel necessitatibus qui magni veniam aliquam ad inventore molestiae earum eius rerum
+          iusto voluptate aperiam rem vitae nulla? Sit alias quasi est pariatur.</p1>
+      </div>
+
+      <div class="grid-item">
+        <p1>8. Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+          Amet beatae dicta debitis maiores alias est fugit
+          magnam maxime nam quae, explicabo saepe iusto sapiente fugiat consequatur! Quasi,
+          vel necessitatibus qui magni veniam aliquam ad inventore molestiae earum eius rerum
+          iusto voluptate aperiam rem vitae nulla? Sit alias quasi est pariatur.</p1>
+      </div>
+
+      <div class="grid-item">
+        <p1>9. Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+          Amet beatae dicta debitis maiores alias est fugit
+          magnam maxime nam quae, explicabo saepe iusto sapiente fugiat consequatur! Quasi,
+          vel necessitatibus qui magni veniam aliquam ad inventore molestiae earum eius rerum
+          iusto voluptate aperiam rem vitae nulla? Sit alias quasi est pariatur.</p1>
+      </div>
+    </div>
+
+    <div class="side-list">
+      <ul class="side-menu">
+        <li class="side-menu-item"><a href="">Click here</a></li>
+        <li class="side-menu-item"><a href="">Click here</a></li>
+        <li class="side-menu-item"><a href="">Click here</a></li>
+        <li class="side-menu-item"><a href="">Click here</a></li>
+        <li class="side-menu-item"><a href="">Click here</a></li>
+
+      </ul>
+    </div>
+  </div>
+  <footer>&copy; Nantale Mary Vivian 2021</footer>
+</body>
+
+</html>
