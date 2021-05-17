@@ -38,6 +38,7 @@
             let name, comments;
             let summary = [];
             document.getElementById("myBtn").addEventListener("click", displayData);
+       
 
             function displayData() {
                 comment = document.getElementById("comments").value;
@@ -49,9 +50,9 @@
                 summary.push(html);
 
                 let innerhtml = "";
-                summary.forEach((element) => {
-                    innerhtml = innerhtml + element;
-                });
+                for (i = 0; i < summary.length; i++) {
+                    innerhtml = innerhtml + summary[i];
+                }
                 document.getElementById("summary").innerHTML = innerhtml;
 
             }
